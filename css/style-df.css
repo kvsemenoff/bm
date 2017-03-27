@@ -1,0 +1,45 @@
+.clear {
+  clear: both; }
+
+.dffixedbutton__view {
+  background: url("../img/button.png");
+  width: 320px;
+  height: 133px;
+  background: url("../img/button.png");
+  width: 320px;
+  height: 133px;
+  position: fixed;
+  bottom: 10px;
+  z-index: 999;
+  cursor: pointer;
+  display: block;
+  opacity: 0;
+  -webkit-animation: run 3s  infinite ease-in-out, leftpos 2s  ease-in-out;
+  animation: run 3s  infinite ease-in-out, leftpos 2s  ease-in-out;
+  animation-fill-mode: backwards; }
+  .dffixedbutton__view:hover {
+    animation: run 0s infinite ease-in-out, leftpos 0s  ease-in-out;
+    opacity: 1; }
+
+@-webkit-keyframes run {
+  0% {
+    opacity: 0; }
+  20% {
+    opacity: 0.5; } }
+@keyframes run {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0.5; } }
+@-webkit-keyframes leftpos {
+  0% {
+    left: -320px; }
+  90% {
+    left: 0px; } }
+@keyframes leftpos {
+  0% {
+    left: -320px; }
+  90% {
+    left: 0px; } }
+
+/*# sourceMappingURL=style-df.css.map */
