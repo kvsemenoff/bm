@@ -14,8 +14,8 @@
   cursor: pointer;
   display: block;
   opacity: 0;
-  -webkit-animation: run 3s infinite ease-in-out, leftpos 2s  ease-in-out;
-  animation: run 3s infinite ease-in-out, leftpos 2s  ease-in-out;
+  -webkit-animation: run 3s  infinite ease-in-out, leftpos 2s  ease-in-out;
+  animation: run 3s  infinite ease-in-out, leftpos 2s  ease-in-out;
   animation-fill-mode: backwards; }
   .dffixedbutton__view:hover {
     animation: run 0s infinite ease-in-out, leftpos 0s  ease-in-out;
@@ -24,12 +24,12 @@
 @-webkit-keyframes run {
   0% {
     opacity: 0; }
-  25% {
+  20% {
     opacity: 0.5; } }
 @keyframes run {
   0% {
     opacity: 0; }
-  25% {
+  50% {
     opacity: 0.5; } }
 @-webkit-keyframes leftpos {
   0% {
