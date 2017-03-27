@@ -22,11 +22,11 @@
 	<br><br>
 	<h2>Пример заголовка</h2>
 	<br>
+	<div class="search clearfix">
+		<input type="text" value="" placeholder="Поиск">
+		<button></button>	
+	</div>
 	<form action="#">
-		<div class="search clearfix">
-			<input type="text" value="" placeholder="Поиск">
-			<button></button>	
-		</div>
 		<br>
 		<input class="input input__grey" type="text" value="" placeholder="Имя">
 		<input class="input input__white" type="text" value="" placeholder="000.000.000">
