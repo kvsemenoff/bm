@@ -40,6 +40,8 @@ $(document).ready(function(){
       });
     })(jQuery);
 
+    $('body').scrollspy({ target: '.navbar-example' })
+
  });
 
 
