@@ -52,7 +52,13 @@
 </div>
 
 
-<?php require_once('includes/footer.php'); ?>
+<br>
+<br>
+<br>
+<div class="dffixedbutton dffixedbutton__view">
+	<!-- animated button -->
+
+</div>
 
 	
 </body>
