@@ -1,0 +1,15 @@
+.button { display: inline-block; font-size: 12px; font-weight: 900; text-transform: uppercase; color: #fff; text-align: center; line-height: 36px; background: #1b22f5; width: 100%; max-width: 180px; font-family: "open Sans", arial, sans-serif; transition: 0.5s all ease; border: 2px solid transparent; }
+.button--blue:hover { border-color: #1b22f5; color: #1b22f5; background: #fff; }
+.button--big { max-width: 400px; }
+.button--black { background: #000; }
+.button--black:hover { border-color: #000; color: #000; background: #fff; }
+.button--grey { background: #ccc; cursor: default; }
+.button--main { background: #118aef; width: 100%; max-width: 340px; line-height: 56px; text-transform: none; font-weight: 600; font-size: 14px; }
+.button--main:hover { border-color: #118aef; color: #118aef; background: #fff; }
+
+.margin-bottom { display: block; height: 20px; }
+
+.hashtag { color: #0013ff; font-size: 18px; display: inline-block; font-family: "open Sans", arial, sans-serif; }
+.hashtag--sm { font-size: 14px; font-weight: 400; }
+.hashtag--medium { font-weight: 700; }
+.hashtag--big { font-size: 30px; font-weight: 900; }
