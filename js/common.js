@@ -34,6 +34,12 @@ $(document).ready(function(){
         $(this).toggleClass('az-select-focus');
     });
 
+    (function($) {
+      $(function() {
+       $('select').styler();
+      });
+    })(jQuery);
+
  });
 
 

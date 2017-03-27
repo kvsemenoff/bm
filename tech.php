@@ -30,6 +30,14 @@
 		<br>
 		<input class="input input__grey" type="text" value="" placeholder="Имя">
 		<input class="input input__white" type="text" value="" placeholder="000.000.000">
+		<i class="margin-bottom"></i>
+		<select class="form-select">
+			<option value="">Город</option>
+			<option value="">Октябрьский</option>
+			<option value="">Ленинский</option>
+			<option value="">Первомайский</option>
+			<option value="">Аламудунский</option>
+		</select>
 		<br><i class="margin-bottom"></i>
 		<br><br>
 		<div class="checkbox checkbox__circle">
