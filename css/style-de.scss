@@ -8,7 +8,10 @@ input, button, select{
 a:hover{
 	text-decoration: none;
 }
-
+.section_padding{
+	padding: 20px 0;
+	background: #ccc;
+}
 .button{
 	display: inline-block;
 	font-size: 12px;
@@ -257,6 +260,8 @@ h2{
 }
 .inner{
 	margin-left: 240px;
+}
+.petr{
 	.img_wrap{
 		border-radius: 50%;
 		overflow: hidden;
@@ -310,6 +315,39 @@ h2{
 	}
 }
 
+.spicer{
+	&_item{
+		padding: 15px 0;
+	}
+	.img_wrap{
+		width: 141px;
+		height: 90px;
+		overflow: hidden;
+		float: left;
+		img{
+			width: 100%;
+			height: auto;
+			min-height: 100%;
+		}
+	}
+	&_text{
+		margin-left: 150px;
+		padding: 0 10px;
+	}
+	&_title{
+		font-size: 18px;
+		color: #212121;
+		font-weight: 700;
+		display: block;
+		padding-bottom: 15px;
+	}
+	&_links{
+		.hashtag{
+			margin-bottom: 0;
+			padding-right: 5px;
+		}
+	}
+}
 
 @media only screen and (max-width : 550px) {
 	h2{

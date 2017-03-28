@@ -20,7 +20,7 @@
 							<a href="#" class="hashtag hashtag__sm">#Взрыв мозга <i>2</i></a>
 						</div>
 			    </div>
-			    <div class="inner">
+			    <div class="inner petr">
 			    	<div class="img_wrap">
 			    		<img src="img/petr.jpg" alt="">
 			    	</div>
