@@ -31,8 +31,6 @@
 								<li class="coach_hashtag__li"><a href="#" class="hashtag">#Алексей Воронин</a></li>
 								<li class="coach_hashtag__li"><a href="#" class="hashtag">#Павел Гительман</a></li>
 								<li class="coach_hashtag__li"><a href="#" class="hashtag">#Алла Милютина</a></li>
-				    	</ul>
-				    	<ul class="coach_hashtag">
 								<li class="coach_hashtag__main"><a href="#" class="hashtag">#Спикеры</a></li>
 								<li class="coach_hashtag__li"><a href="#" class="hashtag">#Михаил Дашкиев</a></li>
 								<li class="coach_hashtag__li"><a href="#" class="hashtag">#Петр Осипов</a></li>
