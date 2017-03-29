@@ -20,8 +20,17 @@
 							<a href="#" class="hashtag hashtag__sm">#Взрыв мозга <i>2</i></a>
 						</div>
 			    </div>
-			    <div class="inner">
-			    	
+			    <div class="inner coach">
+			    	<h2>Спикеры и тренеры</h2>
+			    	<p>Предприниматели с доходом от 2 млн. рублей. Те кто станут консультантами по развитию вашего бизнеса. Эксперты в своем деле. Бизнесмены с осбственной метологией.</p>
+			    	<ul class="coach_hashtag">
+							<li class="coach_hashtag__main"><a href="#" class="hashtag">#Про МЗС</a></li>
+							<li><a href="#" class="hashtag">#Про МЗС</a></li>
+							<li><a href="#" class="hashtag">#Про МЗС</a></li>
+							<li><a href="#" class="hashtag">#Про МЗС</a></li>
+							<li><a href="#" class="hashtag">#Про МЗС</a></li>
+							<li><a href="#" class="hashtag">#Про МЗС</a></li>
+			    	</ul>
 			    </div>
 			  </div>
 			</div>
