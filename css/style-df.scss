@@ -231,6 +231,53 @@ html, body{
 }
 
 
+/* вертикальная полоса прокрутки */
+.jspVerticalBar {
+    position: absolute;
+    top: 0;
+    right: 2px;  
+    width: 8px;   
+    height: 100%;   
+    background: none;
+}
+.jspTrack{
+    background: transparent;
+    position: relative;
+}
+
+.jspDrag{
+    background: #949494; 
+    position: relative;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    border-radius: 25px;
+}
+/* стрелки для прокрутки */
+.jspArrow{
+    background: #50506d;  /* фон стрелки */
+    text-indent: -20000px;
+    display: block;
+    cursor: pointer;
+}
+
+.jspArrow.jspDisabled{
+    cursor: default;
+    background: #80808d;
+}
+.jspVerticalBar .jspArrow{
+    height: 16px;
+}
+
+.jspHorizontalBar .jspArrow{
+    width: 20px;
+    float: left;
+    height: 100%;
+}
+
+
+
+
 @media only screen and (min-width : 320px) {
 }
 
