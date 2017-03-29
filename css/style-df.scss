@@ -13,7 +13,8 @@ html, body{
 
 .dffixedbutton__view{	
     background: url("../img/button.png");
-    width: 320px;
+    max-width: 320px;
+    width: 100%;
     height: 133px;
     position: fixed;
     bottom: 10px;
@@ -215,7 +216,19 @@ html, body{
 .paddingbot{
     padding-bottom: 30px;
 }
-
+.dfclosemob{
+    width: 32px;
+    height: 32px;
+    background-image:url("../img/kres.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    position:absolute;
+    top:8px;
+    right:8px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius:10px;
+}
 
 
 @media only screen and (min-width : 320px) {
@@ -240,6 +253,9 @@ html, body{
     }
     .dfm3c__view{
         display: inline-block;
+    }
+    .dfclosemob{
+        display: none;
     }
 }
 

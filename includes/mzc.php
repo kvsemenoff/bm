@@ -38,6 +38,7 @@
 
 <div class="dfpopupinside window" id="jspopupmenu">
 	<span class="dfm3c dfm3c__view">МЗС<b>Wiki</b></span>
+	<div class="dfclosemob"></div>
 
 	<div class="dfrightmenu">
 		<a href="#" class="dflink dflink__view caplink"># Про МЗС</a>
@@ -70,7 +71,7 @@
 		$('body').addClass('bodyclasspopup');		
 		$('.dffixedbutton__view').animate({'left': '-320px'}, 700);
 	});
-	$('.window .dd-close, #mask').click(function (e) {
+	$('.window .dfclosemob, #mask').click(function (e) {
 		e.preventDefault();
 		$('#mask, .window').hide();		
 		$('body').removeClass('bodyclasspopup');
