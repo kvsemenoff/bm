@@ -57,7 +57,6 @@
 <br>
 <div class="dffixedbutton dffixedbutton__view">
 	<!-- animated button -->
-
 </div>
 
 	
