@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .clear {
   clear: both; }
 
@@ -198,6 +199,47 @@ html, body {
   cursor: pointer;
   transition: 0.5s;
   border-radius: 10px; }
+
+/* ╨▓╨╡╤А╤В╨╕╨║╨░╨╗╤М╨╜╨░╤П ╨┐╨╛╨╗╨╛╤Б╨░ ╨┐╤А╨╛╨║╤А╤Г╤В╨║╨╕ */
+.jspVerticalBar {
+  position: absolute;
+  top: 0;
+  right: 2px;
+  width: 8px;
+  height: 100%;
+  background: none; }
+
+.jspTrack {
+  background: transparent;
+  position: relative; }
+
+.jspDrag {
+  background: #949494;
+  position: relative;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  border-radius: 25px; }
+
+/* ╤Б╤В╤А╨╡╨╗╨║╨╕ ╨┤╨╗╤П ╨┐╤А╨╛╨║╤А╤Г╤В╨║╨╕ */
+.jspArrow {
+  background: #50506d;
+  /* ╤Д╨╛╨╜ ╤Б╤В╤А╨╡╨╗╨║╨╕ */
+  text-indent: -20000px;
+  display: block;
+  cursor: pointer; }
+
+.jspArrow.jspDisabled {
+  cursor: default;
+  background: #80808d; }
+
+.jspVerticalBar .jspArrow {
+  height: 16px; }
+
+.jspHorizontalBar .jspArrow {
+  width: 20px;
+  float: left;
+  height: 100%; }
 
 @media only screen and (min-width: 992px) {
   .window {
