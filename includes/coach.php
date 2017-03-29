@@ -5,7 +5,7 @@
 			<div class="bs-example">
 			  <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" class="scrollspy-example clearfix">
 			    <div class="sidebar">
-						<a href="#" class="button button__blue">Записаться на МЭС</a>
+						<a href="#" class="button button__blue">Записаться на МЗС</a>
 			    	<div class="search clearfix">
 							<input type="text" value="" placeholder="Поиск">
 							<button></button>	
@@ -22,14 +22,14 @@
 			    </div>
 			    <div class="inner coach">
 			    	<h2>Спикеры и тренеры</h2>
-			    	<p>Предприниматели с доходом от 2 млн. рублей. Те кто станут консультантами по развитию вашего бизнеса. Эксперты в своем деле. Бизнесмены с осбственной метологией.</p>
+			    	<p class="coach_text">Предприниматели с доходом от 2 млн. рублей. Те кто станут консультантами по развитию вашего бизнеса. Эксперты в своем деле. Бизнесмены с осбственной метологией.</p>
 			    	<ul class="coach_hashtag">
-							<li class="coach_hashtag__main"><a href="#" class="hashtag">#Про МЗС</a></li>
-							<li><a href="#" class="hashtag">#Про МЗС</a></li>
-							<li><a href="#" class="hashtag">#Про МЗС</a></li>
-							<li><a href="#" class="hashtag">#Про МЗС</a></li>
-							<li><a href="#" class="hashtag">#Про МЗС</a></li>
-							<li><a href="#" class="hashtag">#Про МЗС</a></li>
+							<li class="coach_hashtag__main"><a href="#" class="hashtag">#Спикеры</a></li>
+							<li class="coach_hashtag__li"><a href="#" class="hashtag">#Михаил Дашкиев</a></li>
+							<li class="coach_hashtag__li"><a href="#" class="hashtag">#Петр Осипов</a></li>
+							<li class="coach_hashtag__li"><a href="#" class="hashtag">#Алексей Воронин</a></li>
+							<li class="coach_hashtag__li"><a href="#" class="hashtag">#Павел Гительман</a></li>
+							<li class="coach_hashtag__li"><a href="#" class="hashtag">#Алла Милютина</a></li>
 			    	</ul>
 			    </div>
 			  </div>

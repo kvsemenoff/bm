@@ -5,7 +5,7 @@
 			<div class="bs-example">
 			  <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" class="scrollspy-example clearfix">
 			    <div class="sidebar">
-						<a href="#" class="button button__blue">Записаться на МЭС</a>
+						<a href="#" class="button button__blue">Записаться на МЗС</a>
 			    	<div class="search clearfix">
 							<input type="text" value="" placeholder="Поиск">
 							<button></button>	
@@ -36,7 +36,7 @@
 										<input class="input input__grey" type="text" value="" placeholder="Имя">
 									</div>
 									<div class="input_wrap input_wrap__button">
-										<a href="#" class="button button__blue">Записаться на МЭС</a>
+										<a href="#" class="button button__blue">Записаться на МЗС</a>
 									</div>
 								</div>
 								<div class="checkbox checkbox__squre">

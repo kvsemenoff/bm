@@ -5,7 +5,7 @@
 			<div class="bs-example">
 			  <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" class="scrollspy-example clearfix">
 			    <div class="sidebar">
-						<a href="#" class="button button__blue">Записаться на МЭС</a>
+						<a href="#" class="button button__blue">Записаться на МЗС</a>
 			    	<div class="search clearfix">
 							<input type="text" value="" placeholder="Поиск">
 							<button></button>	

@@ -5,7 +5,7 @@
 			<div class="bs-example">
 			  <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" class="scrollspy-example clearfix">
 			    <div class="sidebar">
-						<a href="#" class="button button__blue">Записаться на МЭС</a>
+						<a href="#" class="button button__blue">Записаться на МЗС</a>
 			    	<div class="search clearfix">
 							<input type="text" value="" placeholder="Поиск">
 							<button></button>	
@@ -47,7 +47,7 @@
 							
 							<span class="dfquestion dfquestion__view">Сколько вы хотите заработать за время мзс?</span>
 
-							<a href="#" class="button button__big button__blue dfmargin">Записаться на МЭС</a>
+							<a href="#" class="button button__big button__blue dfmargin">Записаться на МЗС</a>
 
 						
 							<div class="checkbox checkbox__squre">

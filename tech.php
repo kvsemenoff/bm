@@ -2,9 +2,9 @@
 
 <div class="container">
 	<br><br>		
-	<a href="#" class="button button__blue">Записаться на МЭС</a>
+	<a href="#" class="button button__blue">Записаться на МЗС</a>
 	<i class="margin-bottom"></i>
-	<a href="#" class="button button__big button__blue">Записаться на МЭС</a>
+	<a href="#" class="button button__big button__blue">Записаться на МЗС</a>
 	<i class="margin-bottom"></i>
 	<a href="#" class="button button__black">Далее</a>
 	<i class="margin-bottom"></i>
