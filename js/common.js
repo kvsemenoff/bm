@@ -40,7 +40,7 @@ $(document).ready(function(){
       });
     })(jQuery);
 
-    $('body').scrollspy({ target: '.navbar-example' });
+    $('body').scrollspy({ target: '.bs-example' });
 
 
 
@@ -66,7 +66,7 @@ $(document).ready(function(){
 
 
      jQuery(function(){
-        jQuery('.bs-example').jScrollPane();
+        jQuery('.scrollspy-example').jScrollPane();
     });
  });
 
