@@ -19,7 +19,7 @@ a:hover { text-decoration: none; }
 .margin-bottom { display: block; height: 20px; }
 
 .hashtag { color: #0013ff; font-size: 18px; display: inline-block; margin-bottom: 15px; }
-.hashtag__sm { font-size: 14px; font-weight: 400; }
+.hashtag__sm { font-size: 14px; font-weight: 400; margin-bottom: 10px; }
 .hashtag__medium { font-weight: 700; margin-bottom: 5px; }
 .hashtag__big { font-size: 30px; font-weight: 900; }
 .hashtag i { color: #bfc4ff; font-size: 14px; display: inline-block; }
@@ -94,4 +94,6 @@ h2 { font-size: 30px; font-weight: 900; color: #000; padding-bottom: 20px; }
 .coach_hashtag__main { padding-left: 0; }
 .coach_hashtag a { margin-bottom: 3px; }
 
-@media only screen and (max-width: 550px) { h2 { font-size: 18px; } }
+@media only screen and (max-width: 650px) { h2 { font-size: 22px !important; }
+  .popup-wrap { padding: 5px 5px 0 30px; }
+  .bs-example { margin-left: 220px; } }
