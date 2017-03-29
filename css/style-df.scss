@@ -117,13 +117,13 @@ html, body{
 .form1__view{
     padding: 0 7px 0 40px;
 }
-.dfmargin{
+.dfbutton__margin{
     margin: 14px 0 24px 0;
 }
 .checkbox{
     padding-left: 0;
 }
-.marginbot{
+.checkbox__marginbot{
     margin-bottom: 40px;
 }
 
@@ -194,7 +194,7 @@ html, body{
         color: #212121;    
     }
 }
-.dfrightmenu{
+.dfrightmenu__view{
     max-width: 400px;
     width: 100%;
     float: right;
@@ -208,12 +208,12 @@ html, body{
     line-height: 30px;   
     display: block;
 }
-.caplink{
+.dflink__caplink{
     font-size: 30px;
     font-weight: 900;
     padding-bottom: 12px;
 }
-.paddingbot{
+.dflink__paddingbot{
     padding-bottom: 30px;
 }
 .dfclosemob{

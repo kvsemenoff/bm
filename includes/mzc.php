@@ -42,16 +42,16 @@
 	<span class="dfm3c dfm3c__view">МЗС<b>Wiki</b></span>
 	<div class="dfclosemob"></div>
 
-	<div class="dfrightmenu">
-		<a href="#" class="dflink dflink__view caplink"># Про МЗС</a>
+	<div class="dfrightmenu dfrightmenu__view">
+		<a href="#" class="dflink dflink__view dflink__caplink"># Про МЗС</a>
 		<a href="#" class="dflink dflink__view"># Темы МЗС</a>
 		<a href="#" class="dflink dflink__view"># Спикеры</a>
 		<a href="#" class="dflink dflink__view"># Тренеры</a>
 		<a href="#" class="dflink dflink__view"># Кейсы участников</a>
 		<a href="#" class="dflink dflink__view"># Люди, неформальное общение</a>
 		<a href="#" class="dflink dflink__view"># Формат обучения</a>
-		<a href="#" class="dflink dflink__view paddingbot"># Условия обучения</a>
-		<a href="#" class="dflink dflink__view caplink"># База знаний </a>
+		<a href="#" class="dflink dflink__view dflink__paddingbot"># Условия обучения</a>
+		<a href="#" class="dflink dflink__view dflink__caplink"># База знаний </a>
 		<a href="#" class="dflink dflink__view"># Технологии</a>
 		<a href="#" class="dflink dflink__view"># Метафизика</a>
 	</div>

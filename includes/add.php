@@ -48,14 +48,14 @@
 								
 								<span class="dfquestion dfquestion__view">Сколько вы хотите заработать за время мзс?</span>
 
-								<a href="#" class="button button__big button__blue dfmargin">Записаться на МЗС</a>
+								<a href="#" class="button button__big button__blue dfbutton__margin">Записаться на МЗС</a>
 
 							
 								<div class="checkbox checkbox__squre">
 									<input id="dfch-1" type="checkbox" checked>
 									<label for="dfch-1">Даю согласие на обработку персональных данных и соглашаюсь c условиями договора-оферты, лицензионного договора и политикой конфиденциальности.</label>
 								</div>
-								<div class="checkbox checkbox__squre marginbot">
+								<div class="checkbox checkbox__squre checkbox__marginbot">
 									<input id="dfch-2" type="checkbox" checked>
 									<label for="dfch-2">Я согласен на получение рекламной информации от Бизнес Молодости. </label>
 								</div>
