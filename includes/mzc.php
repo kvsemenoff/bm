@@ -29,12 +29,53 @@
 	</div>
 </div>
 </section>
-
-
-<div class="dfpopupbg">
-	<div class="dfpopupinside">
-		<div class="dfrightmenu">
-			
-		</div>
-	</div>
+<!-- animated button -->
+<div class="dffixedbutton dffixedbutton__view">	
+	<a href="#jspopupmenu" name="js-modal"></a>
 </div>
+
+<div id="mask" class="mask bgpopup"></div>
+
+<div class="dfpopupinside window" id="jspopupmenu">
+	<span class="dfm3c dfm3c__view">МЗС<b>Wiki</b></span>
+	<div class="dfclosemob"></div>
+
+	<div class="dfrightmenu">
+		<a href="#" class="dflink dflink__view caplink"># Про МЗС</a>
+		<a href="#" class="dflink dflink__view"># Темы МЗС</a>
+		<a href="#" class="dflink dflink__view"># Спикеры</a>
+		<a href="#" class="dflink dflink__view"># Тренеры</a>
+		<a href="#" class="dflink dflink__view"># Кейсы участников</a>
+		<a href="#" class="dflink dflink__view"># Люди, неформальное общение</a>
+		<a href="#" class="dflink dflink__view"># Формат обучения</a>
+		<a href="#" class="dflink dflink__view paddingbot"># Условия обучения</a>
+		<a href="#" class="dflink dflink__view caplink"># База знаний </a>
+		<a href="#" class="dflink dflink__view"># Технологии</a>
+		<a href="#" class="dflink dflink__view"># Метафизика</a>
+	</div>
+	<div class="clearfix"></div>
+</div>
+
+
+
+<script>
+	$('a[name="js-modal"]').click(function(e) {
+		 e.preventDefault();
+        var  id = $(this).attr('href'),
+        winW = $(window).width(),
+        winH = $(window).height();
+        var posTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement ||document.body.parentNode || document.body).scrollTop;            
+        $(id).css("top", posTop+50);            
+        $(id).fadeIn();
+        $('#mask').fadeIn();
+		$('body').addClass('bodyclasspopup');		
+		$('.dffixedbutton__view').animate({'left': '-320px'}, 700);
+	});
+	$('.window .dfclosemob, #mask').click(function (e) {
+		e.preventDefault();
+		$('#mask, .window').hide();		
+		$('body').removeClass('bodyclasspopup');
+		$('.dffixedbutton__view').animate({'left': '0px'}, 900);		
+	}); 
+
+</script>
