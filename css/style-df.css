@@ -13,7 +13,7 @@ html, body {
   height: 133px;
   position: fixed;
   bottom: 10px;
-  z-index: 999;
+  z-index: 1299;
   padding-top: 20px;
   cursor: pointer;
   display: block;
@@ -29,10 +29,11 @@ html, body {
   .dffixedbutton__view:hover {
     animation: run 0s infinite ease-in-out, leftpos 0s  ease-in-out;
     opacity: 1; }
-  .dffixedbutton__view a {
-    width: 100%;
-    height: 100px;
-    display: inline-block; }
+
+.dffixedbutton__linkview {
+  width: 100%;
+  height: 100px;
+  display: inline-block; }
 
 @-webkit-keyframes run {
   0% {
@@ -71,12 +72,12 @@ html, body {
   line-height: 30px;
   font-weight: 400;
   margin: 43px 0 55px 0; }
-  .dfcounseltxt__view strong {
-    font-weight: 700; }
 
-.margin-bottom10 {
-  height: 10px;
-  display: block; }
+.dfcounseltxt__bold {
+  font-weight: 700; }
+
+.form-select__mbottom {
+  margin-bottom: 10px; }
 
 .dfquestion__view {
   color: #989898;
@@ -113,7 +114,7 @@ html, body {
   z-index: 999;
   display: none; }
 
-.bgpopup {
+.mask__bgimg {
   background-image: url("../img/popupbg.png");
   background-repeat: no-repeat;
   background-position: center top; }
@@ -162,8 +163,9 @@ html, body {
   color: #0013ff;
   display: inline-block;
   display: none; }
-  .dfm3c__view b {
-    color: #212121; }
+
+.dfm3c__colorblack {
+  color: #212121; }
 
 .dfrightmenu__view {
   max-width: 400px;
@@ -200,6 +202,7 @@ html, body {
   transition: 0.5s;
   border-radius: 10px; }
 
+/*=========== ╨╜╨░╤Б╤В╤А╨╛╨╣╨║╨╕ ╤Б╤В╨║╤А╨╛╨╗╨╗╨░==========*/
 /* ╨▓╨╡╤А╤В╨╕╨║╨░╨╗╤М╨╜╨░╤П ╨┐╨╛╨╗╨╛╤Б╨░ ╨┐╤А╨╛╨║╤А╤Г╤В╨║╨╕ */
 .jspVerticalBar {
   position: absolute;
@@ -224,7 +227,6 @@ html, body {
 /* ╤Б╤В╤А╨╡╨╗╨║╨╕ ╨┤╨╗╤П ╨┐╤А╨╛╨║╤А╤Г╤В╨║╨╕ */
 .jspArrow {
   background: #50506d;
-  /* ╤Д╨╛╨╜ ╤Б╤В╤А╨╡╨╗╨║╨╕ */
   text-indent: -20000px;
   display: block;
   cursor: pointer; }
@@ -241,6 +243,7 @@ html, body {
   float: left;
   height: 100%; }
 
+/*=========== finish ==========*/
 @media only screen and (min-width: 992px) {
   .window {
     overflow-y: hidden;

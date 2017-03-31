@@ -18,7 +18,7 @@ html, body{
     height: 133px;
     position: fixed;
     bottom: 10px;
-    z-index: 999;
+    z-index: 1299;
     padding-top: 20px;
     cursor: pointer;
     display: block;
@@ -34,14 +34,13 @@ html, body{
     &:hover{ 	
        animation: run 0s infinite ease-in-out, leftpos 0s  ease-in-out;
        opacity: 1;
-   }
-   a{
-        width: 100%;
-        height: 100px;
-        display: inline-block;
-   }
+   } 
 }
-
+.dffixedbutton__linkview{
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+}
 
 @-webkit-keyframes run {
    0% {
@@ -98,14 +97,13 @@ html, body{
     font-size: 18px;
     line-height: 30px;
     font-weight: 400;
-    margin: 43px 0 55px 0;
-    strong{
-        font-weight: 700;
-    }    
+    margin: 43px 0 55px 0;       
 }
-.margin-bottom10{
-    height: 10px;
-    display: block;
+.dfcounseltxt__bold{
+    font-weight: 700;
+} 
+.form-select__mbottom{    
+    margin-bottom: 10px;
 }
 .dfquestion__view{
     color: #989898;    
@@ -146,7 +144,7 @@ html, body{
     z-index: 999;
     display:none;   
 }
-.bgpopup{
+.mask__bgimg{
     background-image: url("../img/popupbg.png");
     background-repeat: no-repeat;
     background-position: center top; 
@@ -189,10 +187,10 @@ html, body{
     text-transform: uppercase;
     color: #0013ff; 
     display: inline-block; 
-    display: none;   
-    b{
-        color: #212121;    
-    }
+    display: none;     
+}
+.dfm3c__colorblack{
+    color: #212121;    
 }
 .dfrightmenu__view{
     max-width: 400px;
@@ -230,7 +228,7 @@ html, body{
     border-radius:10px;
 }
 
-
+/*=========== настройки сткролла==========*/
 /* вертикальная полоса прокрутки */
 .jspVerticalBar {
     position: absolute;
@@ -255,7 +253,7 @@ html, body{
 }
 /* стрелки для прокрутки */
 .jspArrow{
-    background: #50506d;  /* фон стрелки */
+    background: #50506d; 
     text-indent: -20000px;
     display: block;
     cursor: pointer;
@@ -274,7 +272,7 @@ html, body{
     float: left;
     height: 100%;
 }
-
+/*=========== finish ==========*/
 
 
 

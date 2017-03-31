@@ -33,13 +33,13 @@
 </section>
 <!-- animated button -->
 <div class="dffixedbutton dffixedbutton__view">	
-	<a href="#jspopupmenu" name="js-modal"></a>
+	<a href="#jspopupmenu" name="js-modal" class="dffixedbutton dffixedbutton__linkview"></a>
 </div>
 
-<div id="mask" class="mask bgpopup"></div>
+<div id="mask" class="mask mask__bgimg"></div>
 
 <div class="dfpopupinside window" id="jspopupmenu">
-	<span class="dfm3c dfm3c__view">МЗС<b>Wiki</b></span>
+	<span class="dfm3c dfm3c__view">МЗС<b class="dfm3c dfm3c__colorblack">Wiki</b></span>
 	<div class="dfclosemob"></div>
 
 	<div class="dfrightmenu dfrightmenu__view">
