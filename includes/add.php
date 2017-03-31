@@ -34,7 +34,7 @@
 										<option value="">Ленинский</option>
 										<option value="">Первомайский</option>
 										<option value="">Аламудунский</option>
-								</select>	
+									</select>	
 
 									<input class="input input__grey" type="text" value="" placeholder="Имя">
 									<input class="input input__grey" type="text" value="" placeholder="Телефон">
