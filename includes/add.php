@@ -28,14 +28,14 @@
 								<p class="dfcounseltxt dfcounseltxt__view"><strong class="dfcounseltxt dfcounseltxt__bold">Внимание!</strong> Обязательное условие участия — доход выше 300.000 рублей чистыми в месяц. Только здоровые бизнесы. Шаманов, колдунов, успешных успехов, женщин, несущих счастье,  мы все равно не пустим. Лучше не пробовать.</p>
 
 								<form action="#" class="form1 form1__view" method="post">	
-									<select class="form-select form-select__mbottom">
+									<select class="form-select">
 										<option value="">Город</option>
 										<option value="">Октябрьский</option>
 										<option value="">Ленинский</option>
 										<option value="">Первомайский</option>
 										<option value="">Аламудунский</option>
 									</select>	
-
+									<i class="mbottom"></i>	
 									<input class="input input__grey" type="text" value="" placeholder="Имя">
 									<input class="input input__grey" type="text" value="" placeholder="Телефон">
 

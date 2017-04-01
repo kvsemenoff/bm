@@ -81,7 +81,7 @@
 }
 .dfcounseltxt__view{
     color: #212121;
-    font-family: Georgia;
+    // font-family: Georgia;
     font-size: 18px;
     line-height: 30px;
     font-weight: 400;
@@ -90,18 +90,20 @@
 .dfcounseltxt__bold{
     font-weight: 700;
 } 
-.form-select__mbottom{    
-    margin-bottom: 10px;
+.mbottom{    
+    // margin-bottom: 10px;
+    height: 10px;
+	display: block;
 }
 .dfquestion__view{
     color: #989898;    
     font-size: 12px;
     font-weight: 400;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .form1__view{
-    padding: 0 7px 0 40px;
+    padding: 0 11px 0 40px;//7
 }
 .dfbutton__margin{
     margin: 14px 0 24px 0;
@@ -166,8 +168,8 @@
 }
 .dfm3c__view{
     position: absolute;
-    top:51%;
-    left:60px;
+    top:53%;
+    left:77px;
     text-shadow: 0 0 111px rgba(255, 255, 255, 0.75);   
     font-size: 60px;
     font-weight: 900;
@@ -175,13 +177,14 @@
     text-transform: uppercase;
     color: #0013ff; 
     display: inline-block; 
-    display: none;     
+    display: none;    
+    letter-spacing: -3px; 
 }
 .dfm3c__colorblack{
     color: #212121;    
 }
 .dfrightmenu__view{
-    max-width: 400px;
+    max-width: 405px;
     width: 100%;
     float: right;
     text-align: left;
@@ -197,7 +200,7 @@
 .dflink__caplink{
     font-size: 30px;
     font-weight: 900;
-    padding-bottom: 12px;
+    padding-bottom: 8px;
 }
 .dflink__paddingbot{
     padding-bottom: 30px;
