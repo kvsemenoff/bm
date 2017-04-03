@@ -8,5 +8,7 @@
 <?php require_once('includes/add.php'); ?>
 <?php require_once('includes/what.php'); ?>
 
+<?php require_once('includes/scripts.php'); ?>
+
 </body>
 </html>

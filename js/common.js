@@ -40,8 +40,6 @@ $(document).ready(function(){
       });
     })(jQuery);
 
-    $('body').scrollspy({ target: '.bs-example' });
-
 
 
     $('a[name="js-modal"]').click(function(e) {
