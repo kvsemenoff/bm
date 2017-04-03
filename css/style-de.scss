@@ -11,6 +11,7 @@ input, button, select{
 	margin: 0 auto;
 }
 .section{
+	min-width: 800px;
 	*{
 		box-sizing: border-box;
 	}
@@ -214,9 +215,7 @@ input, button, select{
 	position: relative;
 	overflow: hidden;
 	background: #fff;
-	max-width: 800px;
-	width: 100%;
-	min-width: 560px;
+	width: 800px;
 	margin: 0 auto;
 	height: 480px;
 	padding: 0px 5px 0px 60px;
@@ -243,14 +242,12 @@ input, button, select{
     background: url(../img/fog.png) repeat-x;
 	}
 }
-.bs-example{
+.scrollspy-example{
 	background: #fff;
 	margin-left: 240px;
-}
-.scrollspy-example{
-	height: 100vh;
-	max-height: 480px;
+	height: 480px;
 	outline: none;
+	// overflow-y: scroll;
 }
 
 .sidebar{
@@ -430,19 +427,17 @@ input, button, select{
 	}
 }
 
-@media only screen and (max-width : 700px) {
-	.section{
-		h2{
-			font-size: 22px!important;
+@media only screen and (max-width : 560px) and (orientation:portrait) {
+	.popup-wrap{
+		&::before{
+			display: block;
+			width: 100%;
+			height: 480px;
+			background: url(../img/mobile-bg.jpg) center;
+			z-index: 10000;
 		}
-		.popup-wrap{
-			padding: 5px 5px 0 25px;
-		}
-		.bs-example{
-			margin-left: 200px;
-		}
-		.coach_text{
-			height: auto;
+		&::after{
+			display: none!important;
 		}
 	}
 }

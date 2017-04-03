@@ -16,13 +16,11 @@
 				<a href="#" class="section_hashtag section_hashtag__sm">#Взрыв мозга <i>2</i></a>
 			</div>
     </div>
-		<div class="bs-example">
-		  <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" class="scrollspy-example clearfix">
-		    <div class="section_inner">
-	
-		    </div>
-		  </div>
-		</div>
+	  <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" class="scrollspy-example clearfix">
+	    <div class="section_inner">
+
+	    </div>
+	  </div>
 	</div>
 </section>
 <!-- animated button -->
