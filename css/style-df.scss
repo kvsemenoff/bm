@@ -6,7 +6,7 @@
     height: 133px;
     position: fixed;
     bottom: 10px;
-    z-index: 1299;
+    z-index: 1500;
     padding-top: 20px;
     cursor: pointer;
     display: block;
@@ -132,10 +132,10 @@
     opacity: 0.8;
     width: 100%;
     height: 100%;
-    z-index: 999;
+    z-index: 1200;
     display:none;   
 }
-.mask__bgimg{
+.js-mask__bgimg{
     background-image: url("../img/popupbg.png");
     background-repeat: no-repeat;
     background-position: center top; 
@@ -144,7 +144,7 @@
     position: absolute;
     top: 0;  
     left: 0;
-    z-index: 9950;
+    z-index: 9999;
     display: none;
     overflow-y:scroll;
     overflow-x:hidden;

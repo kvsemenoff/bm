@@ -23,12 +23,14 @@
 	  </div>
 	</div>
 </section>
+
+
 <!-- animated button -->
 <div class="dffixedbutton dffixedbutton__view">	
 	<a href="#jspopupmenu" name="js-modal" class="dflinkpop dflinkpop__view"></a>
 </div>
 
-<div id="mask" class="mask mask__bgimg"></div>
+<div id="mask" class="mask js-mask__bgimg"></div>
 
 <div class="dfpopupinside window" id="jspopupmenu">
 	<span class="dfmzc dfmzc__view">МЗС<b class="dfmzc dfmzc__lastword">Wiki</b></span>
