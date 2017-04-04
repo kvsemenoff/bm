@@ -12,7 +12,7 @@
 	<i class="margin-bottom"></i>
 	<a href="#" class="section_button section_button__main">Стать участником Нового МЗС</a>	
 	<br><br>
-	<a href="#" class="section_hashtag section_hashtag__big">#Жесткий разбор с Петром Осиповыс </a>
+	<a href="#" class="section_hashtag section_hashtag__big">#Жесткий разбор с Петром Осиповых</a>
 	<br><br>
 	<a href="#" class="section_hashtag section_hashtag__medium">#Про МЗС</a>
 	<br><br>
