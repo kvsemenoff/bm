@@ -5,26 +5,27 @@ body{
 input, button, select{
 	outline: none;
 }
+.site-wrap{
+	background: url(../img/section-bg.jpg) center/cover;
+	position: relative;
+	&::before{
+		content: "";
+		position: absolute;
+		display: block;
+		width: 102%;
+		height: 100%;
+		top: -2px;
+		left: -2px;
+		background: rgba(0,0,0,0.8);
+	}
+}
 .section_padding{
 	padding: 20px 0;
 }
 .section{
 	margin: 0 auto;
 	min-width: 800px;
-	background: url(../img/section-bg.jpg) center;
-	background-size: 100% 100%;
-	position: relative;
 	overflow: hidden;
-	&::before{
-		content: "";
-		position: absolute;
-		display: block;
-		width: 102%;
-		height: 105vh;
-		top: -2px;
-		left: -2px;
-		background: rgba(0,0,0,0.8);
-	}
 	*{
 		box-sizing: border-box;
 	}
