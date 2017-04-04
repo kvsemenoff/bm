@@ -4,7 +4,7 @@ input, button, select { outline: none; }
 
 .section_padding { padding: 20px 0; background: #ccc; margin: 0 auto; }
 
-.section { min-width: 800px; }
+.section { min-width: 800px; background: url(../img/section-bg.jpg) center; }
 .section * { box-sizing: border-box; }
 .section .clearfix::after { clear: both; content: ""; display: table; }
 .section a { text-decoration: none; }

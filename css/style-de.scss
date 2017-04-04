@@ -12,6 +12,7 @@ input, button, select{
 }
 .section{
 	min-width: 800px;
+	background: url(../img/section-bg.jpg) center;
 	*{
 		box-sizing: border-box;
 	}
@@ -247,7 +248,6 @@ input, button, select{
 	margin-left: 240px;
 	height: 480px;
 	outline: none;
-	// overflow-y: scroll;
 }
 
 .sidebar{
