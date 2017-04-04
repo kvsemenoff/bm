@@ -160,8 +160,10 @@
     background-repeat: no-repeat;
     background-position: top center ;
     background-size: cover;
-    max-width: 805px;
-    width: 100%;
+    // max-width: 805px;
+    // width: 100%;
+    width: 800px;
+    height: 480px;
     position: absolute;  
     left:50%;    
     transform:translateX(-50%); 
