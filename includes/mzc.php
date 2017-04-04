@@ -24,7 +24,6 @@
 	</div>
 </section>
 
-
 <!-- animated button -->
 <div class="dffixedbutton dffixedbutton__view">	
 	<a href="#jspopupmenu" name="js-modal" class="dflinkpop dflinkpop__view"></a>
@@ -51,6 +50,7 @@
 	</div>
 	<div class="clearfix"></div>
 </div>
+
 
 
 
