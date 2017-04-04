@@ -188,22 +188,27 @@
     width: 100%;
     float: right;
     text-align: left;
+    .section_hashtag__medium, .section_hashtag__big{
+        display: block;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    .section_hashtag__big{
+        margin-bottom: 0;
+    }
+    .section_hashtag__medium{
+        margin-bottom: 6px;
+    }
+    
 }
-.dflink__view{
-    color: #0013ff;    
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 30px;   
-    display: block;
-}
+
 .dflink__caplink{
     font-size: 30px;
     font-weight: 900;
     padding-bottom: 8px;
 }
 .dflink__paddingbot{
-    padding-bottom: 30px;
+    padding-bottom: 16px;
 }
 .dfclosemob{
     width: 32px;
