@@ -21,10 +21,11 @@
   animation: run 3s  infinite ease-in-out, leftpos 2s  ease-in-out;
   animation-fill-mode: backwards; }
   .dffixedbutton__view:hover {
+    -webkit-animation: run 0s infinite ease-in-out, leftpos 0s  ease-in-out;
     animation: run 0s infinite ease-in-out, leftpos 0s  ease-in-out;
     opacity: 1; }
 
-.dffixedbutton__linkview {
+.dflinkpop__view {
   width: 100%;
   height: 100px;
   display: inline-block; }
@@ -80,7 +81,7 @@
   display: block;
   margin-bottom: 15px; }
 
-.form1__view {
+.js-form__view {
   padding: 0 11px 0 40px; }
 
 .dfbutton__margin {
@@ -94,7 +95,7 @@
 
 /*popup menu*/
 .bodyclasspopup {
-  overflow: hidden;
+  overflow-y: hidden;
   width: 100%; }
 
 .mask {
@@ -145,7 +146,7 @@
   transform: translateX(-50%);
   padding: 40px 15px 90px 15px; }
 
-.dfm3c__view {
+.dfmzc__view {
   position: absolute;
   top: 53%;
   left: 77px;
@@ -159,7 +160,7 @@
   display: none;
   letter-spacing: -3px; }
 
-.dfm3c__colorblack {
+.dfmzc__lastword {
   color: #212121; }
 
 .dfrightmenu__view {
@@ -176,12 +177,12 @@
   .dfrightmenu__view .section_hashtag__medium {
     margin-bottom: 6px; }
 
-.dflink__caplink {
+.dflink__toplink {
   font-size: 30px;
   font-weight: 900;
   padding-bottom: 8px; }
 
-.dflink__paddingbot {
+.dflink__paddingbottom {
   padding-bottom: 16px; }
 
 .dfclosemob {
@@ -250,7 +251,7 @@
     background-position: top center;
     padding: 60px 0px 50px 0; }
 
-  .dfm3c__view {
+  .dfmzc__view {
     display: inline-block; }
 
   .dfclosemob {

@@ -10,7 +10,7 @@
 			<a href="#" class="section_hashtag section_hashtag__medium">#База знаний</a>
 			<div class="sidebar_hashtags">
 				<span class="sidebar_hashtags__title">Связанные хештеги</span>
-				<a href="#" class="section_hashtag section_hashtag__sm">#Жесткий разбор с Петром Осиповыс <i>13</i></a>
+				<a href="#" class="section_hashtag section_hashtag__sm">#Жесткий разбор с Петром Осиповым <i>13</i></a>
 				<a href="#" class="section_hashtag section_hashtag__sm">#Декларация <i>8</i></a>
 				<a href="#" class="section_hashtag section_hashtag__sm">#Точка Б <i>6</i></a>
 				<a href="#" class="section_hashtag section_hashtag__sm">#Взрыв мозга <i>2</i></a>
@@ -23,7 +23,7 @@
 				<h2 class="dfcounsel dfcounsel__view">Запись на собеседование</h2>
 				<p class="dfcounseltxt dfcounseltxt__view"><strong class="dfcounseltxt dfcounseltxt__bold">Внимание!</strong> Обязательное условие участия — доход выше 300.000 рублей чистыми в месяц. Только здоровые бизнесы. Шаманов, колдунов, успешных успехов, женщин, несущих счастье,  мы все равно не пустим. Лучше не пробовать.</p>
 
-							<form action="#" class="form1 form1__view" method="post">	
+							<form action="#" class="js-form js-form__view" method="post">	
 								<select class="form-select">
 									<option value="">Город</option>
 									<option value="">Октябрьский</option>

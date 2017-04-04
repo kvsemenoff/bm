@@ -25,25 +25,25 @@
 </section>
 <!-- animated button -->
 <div class="dffixedbutton dffixedbutton__view">	
-	<a href="#jspopupmenu" name="js-modal" class="dffixedbutton dffixedbutton__linkview"></a>
+	<a href="#jspopupmenu" name="js-modal" class="dflinkpop dflinkpop__view"></a>
 </div>
 
 <div id="mask" class="mask mask__bgimg"></div>
 
 <div class="dfpopupinside window" id="jspopupmenu">
-	<span class="dfm3c dfm3c__view">МЗС<b class="dfm3c dfm3c__colorblack">Wiki</b></span>
+	<span class="dfmzc dfmzc__view">МЗС<b class="dfmzc dfmzc__lastword">Wiki</b></span>
 	<div class="dfclosemob"></div>
 
 	<div class="dfrightmenu dfrightmenu__view">
-		<a href="#" class="section_hashtag section_hashtag__big dflink__caplink"># Про МЗС</a>
+		<a href="#" class="section_hashtag section_hashtag__big dflink__toplink"># Про МЗС</a>
 		<a href="#" class="section_hashtag section_hashtag__medium"># Видео "Новый МЗС"</a>
 		<a href="#" class="section_hashtag section_hashtag__medium"># Спикеры и Тренеры</a>
 		<a href="#" class="section_hashtag section_hashtag__medium"># Кейсы Участников</a>		
 		<a href="#" class="section_hashtag section_hashtag__medium"># Люди, неформальное общение</a>
 		<a href="#" class="section_hashtag section_hashtag__medium"># Цены и акции</a>
 		<a href="#" class="section_hashtag section_hashtag__medium"># Формат обучения</a>		
-		<a href="#" class="section_hashtag section_hashtag__medium dflink__paddingbot"># Условия обучения</a>
-		<a href="#" class="section_hashtag section_hashtag__big dflink__caplink"># База знаний </a>
+		<a href="#" class="section_hashtag section_hashtag__medium dflink__paddingbottom"># Условия обучения</a>
+		<a href="#" class="section_hashtag section_hashtag__big dflink__toplink"># База знаний </a>
 		<a href="#" class="section_hashtag section_hashtag__medium"># Технологии</a>
 		<a href="#" class="section_hashtag section_hashtag__medium"># Метафизика</a>
 	</div>
