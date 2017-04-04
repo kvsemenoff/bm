@@ -19,10 +19,10 @@ input, button, select{
 		content: "";
 		position: absolute;
 		display: block;
-		width: 100%;
-		height: 100vh;
-		top: 0;
-		left: 0;
+		width: 102%;
+		height: 105vh;
+		top: -2px;
+		left: -2px;
 		background: rgba(0,0,0,0.8);
 	}
 	*{
@@ -440,7 +440,14 @@ input, button, select{
 }
 
 @media only screen and (max-width : 560px) and (orientation:portrait) {
+	.section{
+		background: #000;
+		&::before{
+			background: #000;
+		}
+	}
 	.popup-wrap{
+		background: #000;
 		&::before{
 			display: block;
 			width: 100%;
@@ -451,6 +458,9 @@ input, button, select{
 		&::after{
 			display: none!important;
 		}
+	}
+	.scrollspy-example{
+		background: #000;
 	}
 }
 @media only screen and (min-width : 320px) {
