@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*button fixed animation*/
 .dffixedbutton__view {
   background: url("../img/button.png");
@@ -198,8 +197,8 @@
   transition: 0.5s;
   border-radius: 10px; }
 
-/*=========== ╨╜╨░╤Б╤В╤А╨╛╨╣╨║╨╕ ╤Б╤В╨║╤А╨╛╨╗╨╗╨░==========*/
-/* ╨▓╨╡╤А╤В╨╕╨║╨░╨╗╤М╨╜╨░╤П ╨┐╨╛╨╗╨╛╤Б╨░ ╨┐╤А╨╛╨║╤А╤Г╤В╨║╨╕ */
+/*=========== scroll rettings(plagin-jScrollPane)==========*/
+/* vertival scrol bar */
 .jspVerticalBar {
   position: absolute;
   top: 0;
@@ -220,7 +219,7 @@
   cursor: pointer;
   border-radius: 25px; }
 
-/* ╤Б╤В╤А╨╡╨╗╨║╨╕ ╨┤╨╗╤П ╨┐╤А╨╛╨║╤А╤Г╤В╨║╨╕ */
+/* arrows */
 .jspArrow {
   background: #50506d;
   text-indent: -20000px;
